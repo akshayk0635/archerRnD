@@ -1,0 +1,5 @@
+var req = new XMLHttpRequest();
+req.open("GET", "https://api.everbridge.net/rest/contacts/groups/397890065268777?byType=name&groupId=0&groupName=TEST%20Group&pageNumber=1&pageSize=100", true);
+req.setRequestHeader('accept','application/json');
+req.setRequestHeader('Authorization','UlNBX0FyY2hlcl9JbnRlZ3JhdGlvbjpBcmNoZXIyNDUz');
+req.send();
